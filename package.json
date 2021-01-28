@@ -1,0 +1,19 @@
+{
+  "name": "Randomaddress",
+  "version": "1.0.0",
+  "description": "Your Figma plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.19.0",
+    "@ideal-postcodes/api-typings": "^2.0.1",
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "@ideal-postcodes/core-node": "^2.1.0"
+  }
+}

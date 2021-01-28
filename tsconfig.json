@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "ideal-postcodes-core-node": [
+        "node_modules/@ideal-postcodes/core-node/dist/index", 
+        "node_modules/@ideal-postcodes/core-node/dist/client",
+        "node_modules/@ideal-postcodes/core-node/dist/agent",
+      ],
+      "ideal-postcodes-typings": [
+        "node_modules/@ideal-postcodes/api-typings/index",
+      ]
+    }
+  }
+}
